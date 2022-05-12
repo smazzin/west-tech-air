@@ -1,0 +1,575 @@
+{
+  "slices": {
+    "Jknjn": {},
+    "MySlice": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "my_slice",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Syndicate B2C initiatives",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Commodo ad cillum amet non ullamco excepteur voluptate Lorem minim. Ullamco eiusmod exercitation fugiat aliqua reprehenderit.",
+              "spans": []
+            }
+          ],
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+          }
+        }
+      }
+    ],
+    "FeaturedImage": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "featured_image",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Incentivize one-to-one mindshare",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Labore ut sint laborum veniam veniam culpa deserunt id cupidatat mollit tempor eiusmod qui nostrud mollit. Esse eu aliquip nostrud do fugiat laborum sit.",
+              "spans": []
+            }
+          ],
+          "image": {
+            "dimensions": {
+              "width": 727,
+              "height": 402
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=727&h=402&fit=crop"
+          }
+        }
+      }
+    ],
+    "TextColumnSlice": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "text_column_slice",
+        "items": [
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Irure consequat deserunt nulla. Sunt nostrud occaecat sunt non cupidatat dolore proident labore anim enim reprehenderit nisi occaecat enim esse. Ullamco adipisicing est sint sunt aute sint deserunt aliquip.",
+                "spans": []
+              }
+            ],
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Reprehenderit tempor ea consequat enim anim deserunt pariatur adipisicing eiusmod qui dolore sint sunt consequat consequat. Pariatur sunt nisi incididunt incididunt magna dolor. Amet deserunt nisi mollit qui deserunt.",
+                "spans": []
+              }
+            ],
+            "icon": "strategize efficient users",
+            "background-color": "bg-light-gray",
+            "text-color": "text-green",
+            "link": {
+              "link_type": "Web",
+              "url": "https://slicemachine.dev"
+            }
+          },
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Aliqua voluptate amet ut velit nulla tempor amet ipsum dolor mollit ex eiusmod magna.",
+                "spans": []
+              }
+            ],
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Qui anim nisi officia dolore laborum. Quis irure cupidatat enim irure nulla pariatur.",
+                "spans": []
+              }
+            ],
+            "icon": "recontextualize end-to-end users",
+            "background-color": "bg-light-gray",
+            "text-color": "text-light-green",
+            "link": {
+              "link_type": "Web",
+              "url": "https://slicemachine.dev"
+            }
+          }
+        ],
+        "primary": {}
+      }
+    ],
+    "PageTitle": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "page_title",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "paragraph",
+              "text": "Consequat sint commodo sit minim quis minim id nulla.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "List": {
+      "0": {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "list",
+        "items": [],
+        "primary": {
+          "list": [
+            {
+              "type": "paragraph",
+              "text": "Laboris ex ipsum fugiat incididunt labore sunt ex. Officia ea sunt labore veniam minim minim nostrud. Ut enim incididunt id irure consectetur do culpa quis excepteur.",
+              "spans": []
+            }
+          ]
+        }
+      },
+      "default-slice": {
+        "primary": {
+          "list": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "CallToAction": {
+      "0": {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "call_to_action",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Drive world-class eyeballs",
+              "spans": []
+            }
+          ],
+          "text": [
+            {
+              "type": "paragraph",
+              "text": "Proident pariatur qui do elit quis ullamco cupidatat qui elit laboris ea officia. Nostrud ex proident aliquip elit commodo quis Lorem duis.",
+              "spans": []
+            }
+          ],
+          "phone-number": "orchestrate real-time mindshare"
+        }
+      },
+      "default-slice": {
+        "primary": {}
+      }
+    },
+    "FeaturedProjects": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "featured_projects",
+        "items": [
+          {
+            "image": {
+              "dimensions": {
+                "width": 900,
+                "height": 500
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+            },
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Lorem adipisicing ipsum exercitation. Consectetur incididunt veniam anim.",
+                "spans": []
+              }
+            ],
+            "link": {
+              "link_type": "Web",
+              "url": "https://slicemachine.dev"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 900,
+                "height": 500
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
+            },
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Consequat culpa nulla voluptate labore non aute do labore qui id excepteur minim quis nulla. Amet anim aliqua elit.",
+                "spans": []
+              }
+            ],
+            "link": {
+              "link_type": "Web",
+              "url": "http://google.com"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 900,
+                "height": 500
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=900&h=500&fit=crop"
+            },
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Velit magna Lorem sunt tempor. Qui ipsum sunt sunt eu ea id. Adipisicing adipisicing Lorem incididunt non sint ea sunt adipisicing adipisicing cillum ullamco non cillum sunt.",
+                "spans": []
+              }
+            ],
+            "link": {
+              "link_type": "Web",
+              "url": "http://twitter.com"
+            }
+          },
+          {
+            "image": {
+              "dimensions": {
+                "width": 900,
+                "height": 500
+              },
+              "alt": "Placeholder image",
+              "copyright": null,
+              "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
+            },
+            "description": [
+              {
+                "type": "paragraph",
+                "text": "Ex reprehenderit enim nisi pariatur amet labore id ullamco ad proident in irure elit incididunt eiusmod. Sit laboris laboris elit.",
+                "spans": []
+              }
+            ],
+            "link": {
+              "link_type": "Web",
+              "url": "https://prismic.io"
+            }
+          }
+        ],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Productize scalable technologies",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "Nav": {},
+    "HomepageFeatured": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "homepage_featured",
+        "items": [],
+        "primary": {
+          "backgroundImage": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+          },
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Recontextualize cross-platform eyeballs",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Enim est quis ipsum Lorem dolore est commodo voluptate sit occaecat. Et Lorem consequat dolor ad occaecat officia sit est.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ],
+    "ImageGrid": {
+      "default-slice": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "image": {
+            "content": "https://images.unsplash.com/photo-1448630360428-65456885c650"
+          }
+        }
+      }
+    },
+    "Hero": {},
+    "HomeHero": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "home_hero",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Target enterprise networks",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Nostrud ipsum consectetur adipisicing esse Lorem nostrud esse consequat id ipsum do occaecat dolor.",
+              "spans": []
+            }
+          ],
+          "buttonText": "grow synergistic infrastructures",
+          "buttonLink": {
+            "link_type": "Web",
+            "url": "http://google.com"
+          }
+        }
+      }
+    ],
+    "CallToActionImage": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "call_to_action_image",
+        "items": [],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Recontextualize front-end mindshare",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Laborum voluptate ullamco ea et quis est veniam duis aute proident id ullamco duis. Anim nulla ex sint consectetur ea cillum excepteur culpa. Adipisicing commodo labore fugiat ea occaecat ea anim.",
+              "spans": []
+            }
+          ],
+          "buttonText": "incentivize wireless applications",
+          "buttonlink": {
+            "link_type": "Web",
+            "url": "https://prismic.io"
+          },
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+          }
+        }
+      }
+    ],
+    "HomeServices": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "home_services",
+        "items": [
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Nostrud sit voluptate sint laborum quis fugiat labore. Eu quis officia eiusmod velit.",
+                "spans": []
+              }
+            ],
+            "services": [
+              {
+                "type": "paragraph",
+                "text": "Eiusmod ad est irure tempor ea eu do eiusmod aliqua officia. Eiusmod nostrud proident reprehenderit duis ullamco. Ut voluptate incididunt labore aliquip cillum reprehenderit.",
+                "spans": []
+              }
+            ]
+          },
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Ut nisi nulla officia aliquip occaecat aliquip ut reprehenderit culpa. Sit occaecat amet pariatur tempor labore eu culpa nulla veniam enim eu.",
+                "spans": []
+              }
+            ],
+            "services": [
+              {
+                "type": "paragraph",
+                "text": "Cupidatat ullamco adipisicing occaecat enim est occaecat proident officia qui duis eu fugiat minim ullamco consectetur. Consequat do cillum do id minim nostrud dolore minim officia aliqua amet labore. Minim excepteur dolore enim sit duis velit veniam aliquip ut nostrud officia cupidatat.",
+                "spans": []
+              }
+            ]
+          },
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Minim magna deserunt deserunt culpa pariatur cupidatat eiusmod nulla dolore aliqua veniam laborum pariatur reprehenderit proident.",
+                "spans": []
+              }
+            ],
+            "services": [
+              {
+                "type": "paragraph",
+                "text": "Aliquip culpa reprehenderit non in occaecat ad eu amet nostrud aliquip mollit ea reprehenderit sint.",
+                "spans": []
+              }
+            ]
+          }
+        ],
+        "primary": {
+          "title": [
+            {
+              "type": "heading1",
+              "text": "Integrate distributed e-commerce",
+              "spans": []
+            }
+          ],
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Sunt Lorem aute non dolore mollit laborum duis incididunt velit ad quis in officia.",
+              "spans": []
+            }
+          ],
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=900&h=500&fit=crop"
+          }
+        }
+      }
+    ],
+    "Content": [
+      {
+        "variation": "default-slice",
+        "name": "Default slice",
+        "slice_type": "content",
+        "items": [],
+        "primary": {
+          "description": [
+            {
+              "type": "paragraph",
+              "text": "Sit reprehenderit veniam anim nulla ad commodo culpa aliquip cupidatat fugiat. Quis aute cupidatat occaecat consequat id voluptate ex laboris non Lorem duis.",
+              "spans": []
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_cts": {
+    "page": {},
+    "footer": {
+      "email": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "phone": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "ServiceAreasTitle": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "BusinessHours": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "ScheduleServiceTitle": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "ServiceAreas": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "home-page": {
+      "socialCards": {}
+    },
+    "nav": {},
+    "logo": {}
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "page_title",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "paragraph",
+          "text": "Ullamco cupidatat Lorem ex mollit esse irure veniam quis sint do ad cillum incididunt.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

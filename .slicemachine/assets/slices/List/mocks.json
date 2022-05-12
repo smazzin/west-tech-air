@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default-slice",
+    "name": "Default slice",
+    "slice_type": "list",
+    "items": [],
+    "primary": {
+      "list": [
+        {
+          "type": "paragraph",
+          "text": "Proident nisi tempor reprehenderit cillum exercitation ex occaecat esse. Eu ex aliqua sit magna ex minim cillum veniam.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

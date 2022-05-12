@@ -1,0 +1,27 @@
+{
+  "id": "page_title",
+  "type": "SharedSlice",
+  "name": "PageTitle",
+  "description": "PageTitle",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PageTitle",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6,paragraph,strong"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

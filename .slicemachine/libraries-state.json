@@ -1,0 +1,734 @@
+{
+  "slices": {
+    "components": {
+      "call_to_action": {
+        "library": "slices",
+        "id": "call_to_action",
+        "name": "CallToAction",
+        "description": "CallToAction",
+        "model": {
+          "id": "call_to_action",
+          "type": "SharedSlice",
+          "name": "CallToAction",
+          "description": "CallToAction",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CallToAction",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "text",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,strong,em"
+                  }
+                },
+                "PhoneNumber": {
+                  "config": {
+                    "label": "Phone Number",
+                    "placeholder": "503-123-1234"
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "call_to_action",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Scale sticky e-commerce",
+                  "spans": []
+                }
+              ],
+              "text": [
+                {
+                  "type": "paragraph",
+                  "text": "Sit ipsum reprehenderit sunt reprehenderit aliquip exercitation nostrud deserunt ea. Mollit consectetur qui sit sit esse Lorem veniam pariatur consectetur id duis incididunt ut officia. Velit consequat anim eiusmod Lorem dolore pariatur ea sint est ad pariatur dolor nisi consectetur.",
+                  "spans": []
+                }
+              ],
+              "PhoneNumber": "seize integrated initiatives"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/CallToAction/default-slice/preview.png",
+            "width": 800,
+            "height": 368
+          }
+        }
+      },
+      "call_to_action_image": {
+        "library": "slices",
+        "id": "call_to_action_image",
+        "name": "CallToActionImage",
+        "description": "CallToActionImage",
+        "model": {
+          "id": "call_to_action_image",
+          "type": "SharedSlice",
+          "name": "CallToActionImage",
+          "description": "CallToActionImage",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CallToActionImage",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6,strong"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "buttonlink": {
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "call_to_action_image",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Enhance global metrics",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim amet nisi deserunt elit labore laboris. Sint velit incididunt excepteur minim nisi culpa mollit reprehenderit incididunt reprehenderit. Ea ex nulla sunt incididunt cillum incididunt et sunt deserunt non aute pariatur dolore.",
+                  "spans": []
+                }
+              ],
+              "buttonText": "incubate sticky convergence",
+              "buttonlink": {
+                "link_type": "Web",
+                "url": "http://twitter.com"
+              },
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/CallToActionImage/default-slice/preview.png",
+            "width": 800,
+            "height": 351
+          }
+        }
+      },
+      "content": {
+        "library": "slices",
+        "id": "content",
+        "name": "Content",
+        "description": "Content",
+        "model": {
+          "id": "content",
+          "type": "SharedSlice",
+          "name": "Content",
+          "description": "Content",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Content",
+              "primary": {
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "content",
+            "items": [],
+            "primary": {
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Sit dolore quis velit laborum in cupidatat ex consectetur pariatur commodo irure.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/Content/default-slice/preview.png",
+            "width": 800,
+            "height": 264
+          }
+        }
+      },
+      "featured_image": {
+        "library": "slices",
+        "id": "featured_image",
+        "name": "FeaturedImage",
+        "description": "FeaturedImage",
+        "model": {
+          "id": "featured_image",
+          "type": "SharedSlice",
+          "name": "FeaturedImage",
+          "description": "FeaturedImage",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "FeaturedImage",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6,strong"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {
+                      "width": 727,
+                      "height": 402
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "featured_image",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Extend transparent paradigms",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Aliquip nisi pariatur nulla ex aliqua ullamco aliquip fugiat ea.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 727,
+                  "height": 402
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=727&h=402&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/FeaturedImage/default-slice/preview.png",
+            "width": 800,
+            "height": 208
+          }
+        }
+      },
+      "home_hero": {
+        "library": "slices",
+        "id": "home_hero",
+        "name": "HomeHero",
+        "description": "HomeHero",
+        "model": {
+          "id": "home_hero",
+          "type": "SharedSlice",
+          "name": "HomeHero",
+          "description": "HomeHero",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HomeHero",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "buttonText",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "buttonLink": {
+                  "config": {
+                    "label": "buttonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false
+                  },
+                  "type": "Link"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "home_hero",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Transition intuitive functionalities",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim incididunt duis laborum nulla ea nisi irure commodo magna sunt ipsum nulla dolor aliqua. Tempor reprehenderit duis qui laborum eu nulla.",
+                  "spans": []
+                }
+              ],
+              "buttonText": "transition B2B solutions",
+              "buttonLink": {
+                "link_type": "Web",
+                "url": "https://slicemachine.dev"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/HomeHero/default-slice/preview.png",
+            "width": 800,
+            "height": 319
+          }
+        }
+      },
+      "home_services": {
+        "library": "slices",
+        "id": "home_services",
+        "name": "HomeServices",
+        "description": "HomeServices",
+        "model": {
+          "id": "home_services",
+          "type": "SharedSlice",
+          "name": "HomeServices",
+          "description": "HomeServices",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HomeServices",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "image": {
+                  "config": {
+                    "label": "image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {
+                "title": {
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                },
+                "services": {
+                  "config": {
+                    "label": "services",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "home_services",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "Anim proident commodo cupidatat pariatur est. Commodo officia exercitation et in culpa. Aliquip eu ea tempor exercitation consequat excepteur labore commodo.",
+                    "spans": []
+                  }
+                ],
+                "services": [
+                  {
+                    "type": "paragraph",
+                    "text": "Duis do labore voluptate minim cupidatat nostrud cupidatat laborum occaecat ullamco tempor occaecat eiusmod ad.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "paragraph",
+                    "text": "In ullamco minim culpa aliqua in deserunt.",
+                    "spans": []
+                  }
+                ],
+                "services": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nostrud esse eiusmod aliquip nisi veniam proident id occaecat cillum minim aliqua fugiat fugiat id.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Utilize web-enabled infrastructures",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Dolore aliquip dolor qui velit proident esse enim dolore dolor est occaecat. Sunt dolore velit excepteur labore ut ullamco ullamco laboris quis do reprehenderit minim irure. Incididunt deserunt ex labore.",
+                  "spans": []
+                }
+              ],
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/HomeServices/default-slice/preview.png",
+            "width": 800,
+            "height": 351
+          }
+        }
+      },
+      "list": {
+        "library": "slices",
+        "id": "list",
+        "name": "List",
+        "description": "List",
+        "model": {
+          "id": "list",
+          "type": "SharedSlice",
+          "name": "List",
+          "description": "List",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "List",
+              "primary": {
+                "list": {
+                  "config": {
+                    "label": "list",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "list",
+            "items": [],
+            "primary": {
+              "list": [
+                {
+                  "type": "paragraph",
+                  "text": "Proident nisi tempor reprehenderit cillum exercitation ex occaecat esse. Eu ex aliqua sit magna ex minim cillum veniam.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/List/default-slice/preview.png",
+            "width": 800,
+            "height": 64
+          }
+        }
+      },
+      "page_title": {
+        "library": "slices",
+        "id": "page_title",
+        "name": "PageTitle",
+        "description": "PageTitle",
+        "model": {
+          "id": "page_title",
+          "type": "SharedSlice",
+          "name": "PageTitle",
+          "description": "PageTitle",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PageTitle",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1,heading2,heading3,heading4,heading5,heading6,paragraph,strong"
+                  }
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "page_title",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Ullamco cupidatat Lorem ex mollit esse irure veniam quis sint do ad cillum incididunt.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/PageTitle/default-slice/preview.png",
+            "width": 800,
+            "height": 32
+          }
+        }
+      }
+    }
+  }
+}

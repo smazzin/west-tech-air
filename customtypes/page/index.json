@@ -1,0 +1,40 @@
+{
+  "id": "page",
+  "label": "page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "uid",
+          "placeholder": ""
+        },
+        "type": "UID"
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "page_title": {
+              "type": "SharedSlice"
+            },
+            "call_to_action_image": {
+              "type": "SharedSlice"
+            },
+            "call_to_action": {
+              "type": "SharedSlice"
+            },
+            "featured_image": {
+              "type": "SharedSlice"
+            },
+            "content": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

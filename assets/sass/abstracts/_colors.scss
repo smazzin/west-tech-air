@@ -1,25 +1,30 @@
 @use "sass:map";
 
-$navy: 				#3F546B;
+// blues
+$blue: 					#2F8ABC;
+$blue-dark: 		#1A4C67;
 
-// greens
-$green: 			#56934E;
-$light-green: #98C33E;
+// reds
+$red: 					#FF4D4D;
+
+// blacks
+$black:					#4F4A4A;
 
 // grays
-$light-gray: 	#DFE6EC;
-$gray: 				#9CA1A3;
+$gray: 					#666666;
 
 $colors: (
-	"navy": (
-		"base": $navy,
+	"blue": (
+		"base": $blue,
+		"dark": $blue-dark
 	),
-	"green": (
-		"base": $green,
-		"light": $light-green
+	"red": (
+		"base": $red
+	),
+	"black": (
+		"base": $black
 	),
 	"gray": (
-		"base": $gray,
-		"light-gray": $light-gray
+		"base": $gray
 	)
 )

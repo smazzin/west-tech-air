@@ -13,6 +13,9 @@ $black:					#4F4A4A;
 // grays
 $gray: 					#666666;
 
+// white
+$white:					#ffffff;
+
 $colors: (
 	"blue": (
 		"base": $blue,
@@ -26,5 +29,8 @@ $colors: (
 	),
 	"gray": (
 		"base": $gray
+	),
+	"white": (
+		"base": $white
 	)
 )

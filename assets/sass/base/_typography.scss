@@ -7,7 +7,7 @@
 body {
   font-size: var(--fs-400);
   font-family: 'Inter', sans-serif;
-  color: var(--clr-navy-base);
+  color: var(--clr-black-base);
   letter-spacing: -.5px;
 }
  
@@ -18,14 +18,14 @@ h1, h2, h3, h4 {
   font-weight: normal;
   font-stretch: 100%;
   line-height: 1.1;
-  color: var(--clr-navy-base);
+  color: var(--clr-black-base);
   margin-bottom: .75em;
 }
 
 h1 {
     --font-weight: 900;
 
-  color: var(--clr, var(--clr-navy-base));
+  color: var(--clr, var(--clr-black-base));
 }
 
 // .title {

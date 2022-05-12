@@ -1,8 +1,70 @@
+@use '../abstracts' as *;
+
 .logo {
   max-width: 200px;
 }
+
+.top-header {
+    
+  color: var(--clr-white-base);
+  
+  // hide on mobile
+  display: none;
+  
+  // show on medium up
+  @include mq(medium) {
+    display: flex;
+  }
+  
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.top-header-phone {
+  text-decoration: none;
+}
+
+.navbar-btn-wrapper {
+  // hide on mobile
+  display: none;
+
+  @include mq(medium) {
+      display: block;
+  }
+}
+
+.mobile-cta {
+  // show on mobile
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  // hide on medium up
+  @include mq(medium) {
+    display: none;
+  }
+}
+
+.call-us-cta {
+  background-color: var(--clr-red-base);
+  color: var(--clr-white-base);
+  max-width: 100%;
+  width: 100%;
+  flex-basis: 0%;
+  flex-grow: 1;
+}
+
+.schedule-service-cta {
+  background-color: var(--clr-blue-base);
+  color: var(--clr-white-base);
+  max-width: 100%;
+  width: 100%;
+  flex-basis: 0%;
+  flex-grow: 1;
+}
+
 .navbar {
-  border-bottom: 1px solid var(--clr-gray-light-gray);
   display: flex;
   flex-direction: row;
   margin-bottom: 1.5em;
@@ -11,6 +73,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 
 .push-left {
   margin-left: auto;
@@ -38,7 +101,7 @@
   }
   
   &-line {
-    background: var(--clr-green-light);
+    background: var(--clr-white-base);
     height: 3px;
     position: absolute;
     left: 0;
@@ -46,7 +109,7 @@
     width: 100%;
     
     .hamburger:hover & {
-      background: var(--clr-green-light);
+      background: var(--clr-white-base);
     }
     
     &-top {
@@ -88,7 +151,7 @@
   transition: all .25s ease-in; 
   
   @media screen and (max-width: 768px) {
-    background: var(--clr-gray-light-gray);
+    background: var(--clr-black-base);
     flex-direction: column;
     justify-content: center;
     opacity: 0;
@@ -105,8 +168,8 @@
   }
   
   .menu-item a {
-    color: var(--clr-navy-base);
-    --font-weight: 600;
+    color: var(--clr-white-base);
+    --font-weight: 300;
     text-decoration: none;
     display: flex;
     padding: 15px 20px;
@@ -120,7 +183,7 @@
       height: 2px;
       left: 50%;
       position: absolute;
-      background: var (--clr-green-light);
+      background: var (--clr-black-base);
       transition: width 0.3s ease 0s, left 0.3s ease 0s;
       width: 0;
     }

@@ -28,3 +28,27 @@
 .pb-5 {
   padding-bottom: 5em;
 }
+
+// Homepage hero
+.home-hero {
+  background: hsla(0, 0%, 0%, 0.7);
+  background-color: var(--clr-blue-base);
+  background-image: url("../img/gold-hero.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--clr-white-base);
+  // padding-top: 360px;
+  // padding-bottom: 360px;
+  padding-top: calc(15vw + 46px);
+  padding-bottom: calc(23vw + 28px);
+
+  h1 {
+    color: var(--clr-white-base);
+  }
+
+}
+
+.home-hero-content {
+  // position: absolute;
+}

@@ -3,7 +3,7 @@
     <prismic-rich-text :field="slice.primary.title" class="text-center mb-5 title" />
     <prismic-rich-text :field="slice.primary.description" />
     <div class="grid-3">
-      <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`">    
+      <div v-for="(item, i) in slice.items" :key="`slice-item-${i}`" class="pb-2">    
         <prismic-rich-text :field="item.title" />
         <prismic-rich-text :field="item.services" />
       </div>

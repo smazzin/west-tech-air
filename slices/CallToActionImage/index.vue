@@ -1,7 +1,7 @@
 <template>
   <section class="container mb-5">
     <div class="grid-2 align-items-center">
-      <div class="text-center">
+      <div class="text-center pb-2">
         <h3 class="text-small">
           {{ $prismic.asText(slice.primary.title) }}
         </h3>

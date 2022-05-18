@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container mb-5">
     <prismic-rich-text :field="slice.primary.title" />
     <prismic-rich-text :field="slice.primary.description" />
   </section>

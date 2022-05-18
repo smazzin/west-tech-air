@@ -9,6 +9,11 @@
   text-align: center;
 }
 
+.img-contain {
+  object-fit: contain;
+  width: 100%;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -17,9 +22,8 @@
   margin-bottom: 5em;
 }
 
-.img-contain {
-  object-fit: contain;
-  width: 100%;
+.mt-5 {
+  margin-top: 5em;
 }
 
 .p-3 {
@@ -27,6 +31,10 @@
 }
 .pb-5 {
   padding-bottom: 5em;
+}
+
+.align-items-center {
+  align-items: center;
 }
 
 // Homepage hero
@@ -78,4 +86,30 @@
   background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/614ecf8f428b2b7da1ad07d4_curve.png");
   background-position: 0px 0px;
   background-size: cover;
+}
+
+.wave-featured-image {
+  position: relative;
+  height: auto;
+  padding-top: 125px;
+  padding-bottom: 120px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--clr-blue-base)), to(var(--clr-blue-base)));
+  background-image: linear-gradient(180deg, var(--clr-blue-base), var(--clr-blue-base));
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.wave-featured-image-divider {
+  position: absolute;
+  left: 0%;
+  top: -2%;
+  right: 0%;
+  bottom: auto;
+  overflow: visible;
+  height: 30vh;
+  background-image: url("https://assets.website-files.com/611d3ca095f8a21c412f9927/611e760af416a900f722a52b_section-top-devider.svg");
+  background-position: 0% 0%;
+  background-size: 100vw;
+  background-repeat: no-repeat;
 }

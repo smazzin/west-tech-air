@@ -1,11 +1,14 @@
 <template>
-  <section class="container grid-2 mb-5">
-    <div>
-      <prismic-rich-text :field="slice.primary.title" class="title" />
-      <prismic-rich-text :field="slice.primary.description" />
-    </div>
-    <div>
-      <prismic-image :field="slice.primary.image" class="ml-auto" />
+  <section class="wave-featured-image">
+    <div class="wave-featured-image-divider"></div>
+    <div class="container grid-2 align-items-center mt-5">
+      <div>
+        <prismic-rich-text :field="slice.primary.title" class="title text-white-base" />
+        <prismic-rich-text :field="slice.primary.description" class="text-white-base" />
+      </div>
+      <div>
+        <prismic-image :field="slice.primary.image" class="ml-auto" />
+      </div>
     </div>
   </section>
 </template>

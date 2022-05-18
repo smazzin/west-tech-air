@@ -1,5 +1,5 @@
 <template>
-  <section class="wave-featured-image">
+  <section class="wave-featured-image mb-5">
     <div class="wave-featured-image-divider"></div>
     <div class="container grid-2 align-items-center mt-5">
       <div>

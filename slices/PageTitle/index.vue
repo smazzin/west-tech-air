@@ -1,5 +1,8 @@
 <template>
-    <prismic-rich-text :field="slice.primary.title" class="title" />
+  <div class="wave-cta">
+    <prismic-rich-text :field="slice.primary.title" class="container text-center text-white-base"/>
+    <figure class="wave-cta-bottom-divider"></figure>
+  </div>
 </template>
 
 <script>

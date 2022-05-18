@@ -1,12 +1,10 @@
 <template>
   <section class="container mb-5">
     <div class="grid-2 align-items-center">
-      <div class="text-center pb-2">
-        <h3 class="text-small">
-          {{ $prismic.asText(slice.primary.title) }}
-        </h3>
-        <!-- <prismic-rich-text :field="slice.primary.title" /> -->
-        <prismic-rich-text :field="slice.primary.description" class=""/>
+      <div class="pb-2">
+          <!-- {{ $prismic.asText(slice.primary.title) }} -->
+        <prismic-rich-text :field="slice.primary.title" />
+        <prismic-rich-text :field="slice.primary.description" class="pb-2"/>
           <prismic-link :field="slice.primary.buttonlink" class="btn">
             {{ slice.primary.buttonText }}
           </prismic-link>

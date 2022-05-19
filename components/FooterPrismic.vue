@@ -14,7 +14,11 @@
 				</div>
 				<div>
 					<prismic-rich-text :field="$store.state.footer.ScheduleServiceTitle" />
-					<prismic-rich-text :field="$store.state.footer.phone" />
+					<div>
+						<p>
+							<a class="footer-phone-number" :href="`tel:${ $prismic.asText($store.state.footer.phone) }`">{{ $prismic.asText($store.state.footer.phone) }}</a>
+						</p>
+					</div>
 					<prismic-rich-text :field="$store.state.footer.BusinessHours" />
 				</div>
 			</div>

@@ -5,7 +5,7 @@
       <div class="top-header">
         <div class="service-areas">{{ navData.data.serviceArea }}</div>
         <div class="call-us">
-          <a class="top-header-phone" href="#">Call Us {{ navData.data.phone }}</a>
+          <a class="top-header-phone" :href="`tel:${ navData.data.phone }`">Call Us {{ navData.data.phone }}</a>
         </div>
       </div>
     </div>

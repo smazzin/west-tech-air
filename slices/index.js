@@ -2,6 +2,7 @@
 
 export { default as CallToAction } from './CallToAction'
 export { default as CallToActionImage } from './CallToActionImage'
+export { default as ContactForm } from './ContactForm'
 export { default as Content } from './Content'
 export { default as FeaturedImage } from './FeaturedImage'
 export { default as HomeHero } from './HomeHero'

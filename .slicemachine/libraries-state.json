@@ -59,18 +59,18 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Scale sticky e-commerce",
+                  "text": "Enhance plug-and-play platforms",
                   "spans": []
                 }
               ],
               "text": [
                 {
                   "type": "paragraph",
-                  "text": "Sit ipsum reprehenderit sunt reprehenderit aliquip exercitation nostrud deserunt ea. Mollit consectetur qui sit sit esse Lorem veniam pariatur consectetur id duis incididunt ut officia. Velit consequat anim eiusmod Lorem dolore pariatur ea sint est ad pariatur dolor nisi consectetur.",
+                  "text": "Excepteur eiusmod pariatur dolor ea ea irure non.",
                   "spans": []
                 }
               ],
-              "PhoneNumber": "seize integrated initiatives"
+              "PhoneNumber": "synthesize cross-platform eyeballs"
             }
           }
         },
@@ -83,7 +83,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/CallToAction/default-slice/preview.png",
             "width": 800,
-            "height": 368
+            "height": 508
           }
         }
       },
@@ -161,21 +161,21 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Enhance global metrics",
+                  "text": "E-enable bleeding-edge web-readiness",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Minim amet nisi deserunt elit labore laboris. Sint velit incididunt excepteur minim nisi culpa mollit reprehenderit incididunt reprehenderit. Ea ex nulla sunt incididunt cillum incididunt et sunt deserunt non aute pariatur dolore.",
+                  "text": "Eu mollit velit velit consequat. Do do pariatur magna.",
                   "spans": []
                 }
               ],
-              "buttonText": "incubate sticky convergence",
+              "buttonText": "reinvent transparent deliverables",
               "buttonlink": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "https://slicemachine.dev"
               },
               "image": {
                 "dimensions": {
@@ -184,7 +184,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=500&fit=crop"
               }
             }
           }
@@ -198,7 +198,85 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/CallToActionImage/default-slice/preview.png",
             "width": 800,
-            "height": 351
+            "height": 409
+          }
+        }
+      },
+      "contact_form": {
+        "library": "slices",
+        "id": "contact_form",
+        "name": "ContactForm",
+        "description": "ContactForm",
+        "model": {
+          "id": "contact_form",
+          "type": "SharedSlice",
+          "name": "ContactForm",
+          "description": "ContactForm",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContactForm",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your product",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "contact_form",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim minim laboris occaecat commodo elit incididunt aliquip nostrud exercitation. Commodo aute duis eu est voluptate qui laboris ex nostrud eu irure.",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Cillum enim ex mollit velit eu qui officia enim non.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/ContactForm/default-slice/preview.png",
+            "width": 800,
+            "height": 461
           }
         }
       },
@@ -244,7 +322,7 @@
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Sit dolore quis velit laborum in cupidatat ex consectetur pariatur commodo irure.",
+                  "text": "Eiusmod amet tempor incididunt duis adipisicing labore eiusmod nulla in consectetur tempor. Eu mollit nisi cillum enim consectetur occaecat reprehenderit nisi exercitation laboris.",
                   "spans": []
                 }
               ]
@@ -260,7 +338,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/Content/default-slice/preview.png",
             "width": 800,
-            "height": 264
+            "height": 96
           }
         }
       },
@@ -326,14 +404,14 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Extend transparent paradigms",
+                  "text": "Deploy 24/365 action-items",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Aliquip nisi pariatur nulla ex aliqua ullamco aliquip fugiat ea.",
+                  "text": "Officia Lorem nisi adipisicing elit id cupidatat commodo dolor enim consectetur non consequat elit.",
                   "spans": []
                 }
               ],
@@ -344,7 +422,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=727&h=402&fit=crop"
+                "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=727&h=402&fit=crop"
               }
             }
           }
@@ -358,7 +436,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/FeaturedImage/default-slice/preview.png",
             "width": 800,
-            "height": 208
+            "height": 593
           }
         }
       },
@@ -709,7 +787,7 @@
               "title": [
                 {
                   "type": "paragraph",
-                  "text": "Ullamco cupidatat Lorem ex mollit esse irure veniam quis sint do ad cillum incididunt.",
+                  "text": "Officia esse id sit dolore tempor magna ad.",
                   "spans": []
                 }
               ]
@@ -725,7 +803,7 @@
           "default-slice": {
             "path": "/Users/jhausotter/projects/west-tech-air/.slicemachine/assets/slices/PageTitle/default-slice/preview.png",
             "width": 800,
-            "height": 32
+            "height": 397
           }
         }
       }

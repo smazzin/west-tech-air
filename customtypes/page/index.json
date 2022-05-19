@@ -31,6 +31,9 @@
             },
             "content": {
               "type": "SharedSlice"
+            },
+            "contact_form": {
+              "type": "SharedSlice"
             }
           }
         }

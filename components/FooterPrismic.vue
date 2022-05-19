@@ -2,17 +2,17 @@
   <footer class="bg-black-base text-white-base">
 		<div class="container">
 			<p v-if="$store.state.footer === 'Please create a footer document'" class="logo">{{ $store.state.footer }}</p>
-			<div class="grid-3 footer">
-				<div>
+			<div class="footer-grid-3 footer">
+				<div class="footer-service-areas pb-2">
 					<prismic-rich-text :field="$store.state.footer.ServiceAreasTitle" />
 					<prismic-rich-text :field="$store.state.footer.ServiceAreas" />
 				</div>
-				<div class="logo">
+				<div class="footer-logo pb-2">
 					<nuxt-link to="/" class="logo">
 						<prismic-image :field="$store.state.footer.logo" />
 					</nuxt-link>
 				</div>
-				<div>
+				<div class="footer-hours pb-2">
 					<prismic-rich-text :field="$store.state.footer.ScheduleServiceTitle" />
 					<div>
 						<p>

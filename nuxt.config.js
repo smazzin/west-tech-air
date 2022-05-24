@@ -47,7 +47,23 @@ export default {
         path: "/:uid"
       }]
     }
-  }], ["nuxt-sm"]],
+  }],
+    ["nuxt-sm"],
+    ["@nuxtjs/sitemap"],
+    ['@nuxtjs/robots']],
+  sitemap: {
+    hostname: 'https://bcdrafting-dev.netlify.app',
+    gzip: true,
+    exclude: [
+      '/preview',
+      '/slice-simulator'
+    ],
+    // routes: async () => {
+    //   const api = await Prismic.getApi(sm.apiEndpoint)
+    //   const pages = await api.query(Prismic.Predicate.at("document.type", "pages"));
+    //   return [...pages.map((i) => `/${i.uid}`)];
+    // },
+  },
   generate: {
     fallback: true
   },

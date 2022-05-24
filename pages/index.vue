@@ -21,12 +21,12 @@ export default {
   },
   head() {
     return {
-      title: this.document.data.meta_title,
+      title: this.document.data.metaTitle,
       meta: [
         {
           hid: "description",
           name: "description",
-          content: this.document.data.meta_description,
+          content: this.document.data.metaDescription,
         }
       ]
     }

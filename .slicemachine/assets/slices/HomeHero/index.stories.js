@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"home_hero","items":[],"primary":{"title":[{"type":"heading1","text":"Transition intuitive functionalities","spans":[]}],"description":[{"type":"paragraph","text":"Minim incididunt duis laborum nulla ea nisi irure commodo magna sunt ipsum nulla dolor aliqua. Tempor reprehenderit duis qui laborum eu nulla.","spans":[]}],"buttonText":"transition B2B solutions","buttonLink":{"link_type":"Web","url":"https://slicemachine.dev"}},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"home_hero","items":[],"primary":{"title":[{"type":"heading1","text":"Scale interactive partnerships","spans":[]}],"description":[{"type":"paragraph","text":"Aliqua fugiat ipsum nulla quis nisi fugiat irure in adipisicing consectetur in ex fugiat commodo.","spans":[]}],"buttonText":"architect 24/7 e-commerce","buttonLink":{"link_type":"Web","url":"https://prismic.io"}},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'

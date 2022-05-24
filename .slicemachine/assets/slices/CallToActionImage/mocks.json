@@ -8,21 +8,21 @@
       "title": [
         {
           "type": "heading1",
-          "text": "E-enable bleeding-edge web-readiness",
+          "text": "Envisioneer front-end bandwidth",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Eu mollit velit velit consequat. Do do pariatur magna.",
+          "text": "Laboris sunt sit labore aliquip anim amet mollit deserunt id labore enim proident. Quis est officia elit eiusmod voluptate aliquip eu tempor et. Laborum voluptate sit enim occaecat sit magna irure.",
           "spans": []
         }
       ],
-      "buttonText": "reinvent transparent deliverables",
+      "buttonText": "evolve revolutionary e-services",
       "buttonlink": {
         "link_type": "Web",
-        "url": "https://slicemachine.dev"
+        "url": "https://prismic.io"
       },
       "image": {
         "dimensions": {
@@ -31,7 +31,7 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=900&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
       }
     }
   }

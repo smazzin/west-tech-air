@@ -38,6 +38,22 @@
           }
         }
       }
+    },
+    "SEO Metadata": {
+      "metaTitle": {
+        "config": {
+          "label": "metaTitle",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "metaDescription": {
+        "config": {
+          "label": "metaDescription",
+          "placeholder": ""
+        },
+        "type": "Text"
+      }
     }
   }
 }

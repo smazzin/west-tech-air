@@ -52,7 +52,7 @@ export default {
     ["@nuxtjs/sitemap"],
     ['@nuxtjs/robots']],
   sitemap: {
-    hostname: 'https://bcdrafting-dev.netlify.app',
+    hostname: 'https://westtechair-dev.netlify.app',
     gzip: true,
     exclude: [
       '/preview',

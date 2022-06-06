@@ -37,17 +37,33 @@ export default {
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [],
+  buildModules: ['@nuxtjs/prismic'],
+  prismic: {
+    endpoint: smConfig.apiEndpoint,
+    modern: true,
+    // apiOptions: {
+    //   routes: [
+    //     {
+    //       type: 'page',
+    //       path: '/:uid'
+    //     }
+    //   ]
+    // }
+  },
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [["@nuxtjs/prismic", {
-    endpoint: smConfig.apiEndpoint || "",
-    apiOptions: {
-      routes: [{
-        type: "page",
-        path: "/:uid"
-      }]
-    }
-  }],
+  modules: [
+    // ["@nuxtjs/prismic", {
+    //   endpoint: smConfig.apiEndpoint || "",
+    //   apiOptions: {
+    //     routes: [
+    //       {
+    //         type: "page",
+    //         path: "/:uid"
+    //       }
+    //     ]
+    //   }
+    //   } 
+    // ],
     ["nuxt-sm"],
     ["@nuxtjs/sitemap"],
     ['@nuxtjs/robots']],

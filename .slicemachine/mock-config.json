@@ -133,7 +133,7 @@
           "title": [
             {
               "type": "paragraph",
-              "text": "Ullamco minim laborum non sint aliqua.",
+              "text": "Sit laborum eiusmod in incididunt deserunt nisi labore.",
               "spans": []
             }
           ]
@@ -575,6 +575,9 @@
       "socialCards": {}
     },
     "nav": {},
-    "logo": {}
+    "logo": {},
+    "category": {},
+    "heating": {},
+    "airConditioning": {}
   }
 }

@@ -44,14 +44,14 @@
           "title": [
             {
               "type": "heading1",
-              "text": "Recontextualize dynamic experiences",
+              "text": "Enhance ubiquitous users",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Ad occaecat ut duis duis pariatur consequat occaecat velit ea duis proident excepteur quis irure duis. Irure tempor eu et in laboris.",
+              "text": "Eu velit officia qui eu aliqua et velit et occaecat esse aliquip laboris.",
               "spans": []
             }
           ],
@@ -62,7 +62,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=727&h=402&fit=crop"
+            "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=727&h=402&fit=crop"
           }
         }
       }
@@ -133,15 +133,15 @@
           "title": [
             {
               "type": "paragraph",
-              "text": "Sit laborum eiusmod in incididunt deserunt nisi labore.",
+              "text": "Quis enim deserunt in elit. Do consequat amet amet qui laboris voluptate reprehenderit velit sit dolore enim proident eiusmod.",
               "spans": []
             }
           ]
         }
       }
     ],
-    "List": {
-      "0": {
+    "List": [
+      {
         "variation": "default-slice",
         "name": "Default slice",
         "slice_type": "list",
@@ -150,23 +150,13 @@
           "list": [
             {
               "type": "paragraph",
-              "text": "Laboris ex ipsum fugiat incididunt labore sunt ex. Officia ea sunt labore veniam minim minim nostrud. Ut enim incididunt id irure consectetur do culpa quis excepteur.",
+              "text": "Adipisicing tempor laborum adipisicing ex exercitation qui magna est enim aliqua laborum. Irure ea consectetur ipsum aliqua esse culpa ad aliquip elit irure cupidatat. Duis veniam aliquip et consequat sunt.",
               "spans": []
             }
           ]
         }
-      },
-      "default-slice": {
-        "primary": {
-          "list": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        }
       }
-    },
+    ],
     "CallToAction": [
       {
         "variation": "default-slice",
@@ -177,18 +167,18 @@
           "title": [
             {
               "type": "heading1",
-              "text": "Innovate clicks-and-mortar methodologies",
+              "text": "Expedite 24/7 methodologies",
               "spans": []
             }
           ],
           "text": [
             {
               "type": "paragraph",
-              "text": "Non dolor sit eiusmod consectetur in veniam deserunt.",
+              "text": "Irure proident excepteur et duis laboris. Laborum cupidatat adipisicing fugiat consequat occaecat ad cupidatat ut.",
               "spans": []
             }
           ],
-          "PhoneNumber": "enhance bleeding-edge convergence"
+          "PhoneNumber": "incubate proactive systems"
         }
       }
     ],
@@ -366,21 +356,21 @@
           "title": [
             {
               "type": "heading1",
-              "text": "Transition intuitive functionalities",
+              "text": "Syndicate bricks-and-clicks mindshare",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Minim incididunt duis laborum nulla ea nisi irure commodo magna sunt ipsum nulla dolor aliqua. Tempor reprehenderit duis qui laborum eu nulla.",
+              "text": "Officia cillum et sint ad magna id cupidatat incididunt esse aliquip nostrud. Ipsum aliqua aute amet amet. Eiusmod magna consequat labore nisi occaecat dolore sint incididunt cupidatat minim minim labore amet.",
               "spans": []
             }
           ],
-          "buttonText": "transition B2B solutions",
+          "buttonText": "unleash rich synergies",
           "buttonLink": {
             "link_type": "Web",
-            "url": "https://slicemachine.dev"
+            "url": "https://prismic.io"
           }
         }
       }
@@ -395,21 +385,21 @@
           "title": [
             {
               "type": "heading1",
-              "text": "Disintermediate scalable synergies",
+              "text": "Grow collaborative solutions",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Laboris anim ipsum occaecat aliquip quis ex anim do consectetur ipsum. Irure consequat adipisicing veniam labore consequat cupidatat. Ut occaecat mollit do in irure veniam.",
+              "text": "Excepteur duis voluptate officia cupidatat anim qui Lorem.",
               "spans": []
             }
           ],
-          "buttonText": "cultivate rich content",
+          "buttonText": "incubate intuitive infrastructures",
           "buttonlink": {
             "link_type": "Web",
-            "url": "https://slicemachine.dev"
+            "url": "http://twitter.com"
           },
           "image": {
             "dimensions": {
@@ -418,7 +408,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c?w=900&h=500&fit=crop"
           }
         }
       }
@@ -433,14 +423,14 @@
             "title": [
               {
                 "type": "paragraph",
-                "text": "Anim proident commodo cupidatat pariatur est. Commodo officia exercitation et in culpa. Aliquip eu ea tempor exercitation consequat excepteur labore commodo.",
+                "text": "Anim ex commodo est non proident officia est elit. Sint sit commodo aute velit minim sunt elit in dolor deserunt qui in.",
                 "spans": []
               }
             ],
             "services": [
               {
                 "type": "paragraph",
-                "text": "Duis do labore voluptate minim cupidatat nostrud cupidatat laborum occaecat ullamco tempor occaecat eiusmod ad.",
+                "text": "Sint minim ullamco ad consequat reprehenderit.",
                 "spans": []
               }
             ]
@@ -449,14 +439,46 @@
             "title": [
               {
                 "type": "paragraph",
-                "text": "In ullamco minim culpa aliqua in deserunt.",
+                "text": "Ullamco aliqua ad minim proident voluptate duis officia cillum.",
                 "spans": []
               }
             ],
             "services": [
               {
                 "type": "paragraph",
-                "text": "Nostrud esse eiusmod aliquip nisi veniam proident id occaecat cillum minim aliqua fugiat fugiat id.",
+                "text": "Adipisicing deserunt enim excepteur ullamco labore elit aliquip ea sit.",
+                "spans": []
+              }
+            ]
+          },
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Magna reprehenderit proident nisi adipisicing esse aute ipsum enim enim labore. Commodo nisi fugiat occaecat amet aute officia dolore aliqua duis. Nostrud aute adipisicing eiusmod velit in ullamco aute.",
+                "spans": []
+              }
+            ],
+            "services": [
+              {
+                "type": "paragraph",
+                "text": "Do Lorem aliqua labore deserunt deserunt veniam ex veniam nostrud laborum id aliquip ea aliquip elit. Amet ea ad fugiat minim occaecat. Duis quis labore enim in eu fugiat mollit Lorem do laboris voluptate qui aliquip duis sunt.",
+                "spans": []
+              }
+            ]
+          },
+          {
+            "title": [
+              {
+                "type": "paragraph",
+                "text": "Aute sint anim est do pariatur ullamco.",
+                "spans": []
+              }
+            ],
+            "services": [
+              {
+                "type": "paragraph",
+                "text": "Sunt cillum exercitation eiusmod Lorem culpa adipisicing ex consequat nulla elit ullamco commodo deserunt. Duis quis irure eu exercitation deserunt culpa fugiat Lorem.",
                 "spans": []
               }
             ]
@@ -466,14 +488,14 @@
           "title": [
             {
               "type": "heading1",
-              "text": "Utilize web-enabled infrastructures",
+              "text": "Orchestrate magnetic e-business",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Dolore aliquip dolor qui velit proident esse enim dolore dolor est occaecat. Sunt dolore velit excepteur labore ut ullamco ullamco laboris quis do reprehenderit minim irure. Incididunt deserunt ex labore.",
+              "text": "Laborum ad occaecat aute eiusmod consequat cupidatat. Labore deserunt eu deserunt nulla pariatur sunt.",
               "spans": []
             }
           ],
@@ -484,7 +506,7 @@
             },
             "alt": "Placeholder image",
             "copyright": null,
-            "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
+            "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
           }
         }
       }
@@ -499,7 +521,7 @@
           "description": [
             {
               "type": "paragraph",
-              "text": "Aute magna commodo anim ut aliquip nisi aliquip consequat dolore ea. Dolor quis non mollit do qui sint tempor ex dolor Lorem pariatur.",
+              "text": "Occaecat dolor occaecat velit exercitation. Est amet ullamco aute. Nisi amet enim occaecat consequat Lorem aliqua ex eu.",
               "spans": []
             }
           ]
@@ -516,14 +538,14 @@
           "title": [
             {
               "type": "paragraph",
-              "text": "Amet nulla do sit nisi ipsum tempor ullamco sunt. Esse culpa exercitation aliquip cillum laborum tempor officia amet proident pariatur exercitation occaecat.",
+              "text": "Fugiat cupidatat duis ad mollit tempor culpa cillum excepteur nisi occaecat.",
               "spans": []
             }
           ],
           "description": [
             {
               "type": "paragraph",
-              "text": "Occaecat nostrud nulla cillum aute excepteur voluptate commodo deserunt. Ad anim est aliquip labore sit ad id.",
+              "text": "Enim dolor consectetur incididunt eu mollit commodo. Minim et nostrud enim velit eiusmod amet. Aliqua Lorem nisi culpa dolore commodo.",
               "spans": []
             }
           ]
@@ -571,7 +593,7 @@
         }
       }
     },
-    "home-page": {
+    "homepage": {
       "socialCards": {}
     },
     "nav": {},

@@ -18,7 +18,7 @@ export const _DefaultSlice = () => ({
   },
   data() {
     return {
-      mock: {"variation":"default-slice","name":"Default slice","slice_type":"call_to_action","items":[],"primary":{"title":[{"type":"heading1","text":"Morph mission-critical relationships","spans":[]}],"text":[{"type":"paragraph","text":"Velit qui in fugiat cillum ullamco exercitation excepteur occaecat non adipisicing sint pariatur aliquip. Quis nulla minim et minim proident eiusmod cupidatat exercitation amet labore dolore labore nisi laborum adipisicing.","spans":[]}],"PhoneNumber":"unleash clicks-and-mortar e-tailers"},"id":"_DefaultSlice"}
+      mock: {"variation":"default-slice","name":"Default slice","slice_type":"call_to_action","items":[],"primary":{"title":[{"type":"heading1","text":"Transition compelling content","spans":[]}],"text":[{"type":"paragraph","text":"Anim reprehenderit fugiat ut eiusmod commodo tempor velit veniam deserunt magna in elit laborum reprehenderit. Consequat labore excepteur occaecat ullamco incididunt enim dolor dolore labore duis non.","spans":[]}],"PhoneNumber":"redefine collaborative initiatives"},"id":"_DefaultSlice"}
     }
   },
   template: '<SliceZone :slices="[mock]" :resolver="resolve" />'

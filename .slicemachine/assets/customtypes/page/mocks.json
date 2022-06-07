@@ -1,9 +1,29 @@
 {
-  "id": "c91da5f4-c246-42f2-8e4d-a344ed51c906",
-  "uid": "omnis-exercitationem-cum",
+  "id": "c0506930-4b4a-4495-aeea-c26d65f55816",
+  "uid": "distinctio-libero-magnam",
   "type": "page",
   "data": {
-    "metaTitle": "extend magnetic e-services",
-    "metaDescription": "recontextualize wireless communities"
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Transition granular e-markets",
+        "spans": []
+      }
+    ],
+    "parent": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "metaTitle": "scale cross-platform architectures",
+    "metaDescription": "mesh magnetic experiences",
+    "metaImage": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+    }
   }
 }

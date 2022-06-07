@@ -1,9 +1,25 @@
 {
-  "id": "09b9a45d-f0e6-44e2-b4ad-308e03584ac1",
-  "uid": "sit-dolor-minima",
-  "type": "home-page",
+  "id": "8e8f8971-46e7-48af-8143-632b17011432",
+  "uid": "quam-delectus-voluptatem",
+  "type": "homepage",
   "data": {
-    "metaTitle": "matrix impactful initiatives",
-    "metaDescription": "expedite dot-com e-commerce"
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Enable end-to-end blockchains",
+        "spans": []
+      }
+    ],
+    "metaTitle": "enhance turn-key e-commerce",
+    "metaDescription": "engineer ubiquitous mindshare",
+    "metaImage": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+    }
   }
 }

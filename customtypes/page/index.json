@@ -1,58 +1,88 @@
 {
   "id": "page",
-  "label": "page",
+  "label": "Page",
   "repeatable": true,
   "status": true,
   "json": {
     "Main": {
+      "title": {
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "heading1"
+        },
+        "type": "StructuredText"
+      },
       "uid": {
         "config": {
-          "label": "uid",
+          "label": "UID",
           "placeholder": ""
         },
         "type": "UID"
+      },
+      "parent": {
+        "config": {
+          "label": "Parent",
+          "customtypes": [
+            "page"
+          ],
+          "select": "document"
+        },
+        "type": "Link"
       },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "page_title": {
+            "call_to_action": {
               "type": "SharedSlice"
             },
             "call_to_action_image": {
               "type": "SharedSlice"
             },
-            "call_to_action": {
-              "type": "SharedSlice"
-            },
-            "featured_image": {
+            "contact_form": {
               "type": "SharedSlice"
             },
             "content": {
               "type": "SharedSlice"
             },
-            "contact_form": {
+            "featured_image": {
+              "type": "SharedSlice"
+            },
+            "list": {
+              "type": "SharedSlice"
+            },
+            "page_title": {
               "type": "SharedSlice"
             }
           }
         }
       }
     },
-    "SEO Metadata": {
+    "SEO": {
       "metaTitle": {
         "config": {
-          "label": "metaTitle",
+          "label": "Meta title",
           "placeholder": ""
         },
         "type": "Text"
       },
       "metaDescription": {
         "config": {
-          "label": "metaDescription",
+          "label": "Meta description",
           "placeholder": ""
         },
         "type": "Text"
+      },
+      "metaImage": {
+        "config": {
+          "label": "Meta image",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
       }
     }
   }

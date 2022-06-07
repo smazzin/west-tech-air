@@ -5,12 +5,12 @@
   "status": true,
   "json": {
     "Main": {
-      "doc_name": {
-        "type": "StructuredText",
+      "name": {
         "config": {
-          "single": "heading1",
-          "label": "Document name"
-        }
+          "label": "name",
+          "placeholder": ""
+        },
+        "type": "Text"
       },
       "serviceArea": {
         "config": {

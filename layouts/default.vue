@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <main>
     <header-prismic/>
     <nuxt />
     <footer-prismic/>
-  </div>
+  </main>
 </template>
 
 <script>

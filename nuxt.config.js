@@ -36,43 +36,39 @@ export default {
   ],
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
-  // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+  // Auto import components: https://go.nuxtjs.dev/config-components
+  components: {
+    dirs: [
+      '~/components',
+      '~/components/Layout',
+    ]
+  },
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: ['@nuxtjs/prismic'],
   prismic: {
     endpoint: smConfig.apiEndpoint,
     modern: true,
-    // apiOptions: {
-    //   routes: [
-    //     {
-    //       type: 'page',
-    //       path: '/:uid'
-    //     }
-    //   ]
-    // }
+    apiOptions: {
+      routes: [
+        {
+          type: 'homepage',
+          path: '/',
+        },
+        {
+          type: 'page',
+          path: '/:grandparent?/:parent?/:uid',
+          resolvers: {
+            grandparent: 'parent.parent',
+            parent: 'parent',
+          },
+        },
+      ],
+    }
   },
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    ["@nuxtjs/prismic", {
-      endpoint: smConfig.apiEndpoint || "",
-      apiOptions: {
-        routes: [
-          {
-            type: 'homepage',
-            path: '/',
-          },
-          {
-            type: 'page',
-            path: '/:grandparent?/:parent?/:uid',
-            resolvers: {
-              grandparent: 'parent.parent',
-              parent: 'parent',
-            },
-          },
-        ],
-      }
-    } 
+    [
+    "@nuxtjs/prismic" 
   ],
   ["nuxt-sm"],
   ["@nuxtjs/sitemap"],
@@ -83,12 +79,7 @@ export default {
     exclude: [
       '/preview',
       '/slice-simulator'
-    ],
-    // routes: async () => {
-    //   const api = await Prismic.getApi(sm.apiEndpoint)
-    //   const pages = await api.query(Prismic.Predicate.at("document.type", "pages"));
-    //   return [...pages.map((i) => `/${i.uid}`)];
-    // },
+    ]
   },
   generate: {
     fallback: '404.html', // Netlify reads a 404.html, Nuxt will load as an SPA

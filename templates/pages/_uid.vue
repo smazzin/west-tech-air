@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Breadcrumbs :home-doc="{ path: '/', title: 'Home' }" :current-doc="doc" /> -->
+    <Breadcrumbs :home-doc="{ path: '/', title: 'Home' }" :current-doc="doc" />
     <slice-zone type="page" :uid="uid" />
   </div>
 </template>

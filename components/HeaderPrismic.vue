@@ -90,7 +90,116 @@ export default {
           this.open();
         }
       }
-    }
+  },
+  jsonld() {
+    return {
+      "@context": "http://schema.org/",
+      "@type": [
+        "LocalBusiness",
+        "Service",
+        "HVACBusiness"
+      ],
+      "name": "West Tech Air",
+      "telephone": "503-123-1234",
+      "openingHours": "Mo-Fri 08:00-17:00",
+      "logo": "https://elevateheatingllc.com/images/elevate-logo.png",
+      "image": "https://elevateheatingllc.com/images/elevate-logo.png",
+      "url": "https://elevateheatingllc.com",
+      "priceRange": "$$$",
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": [
+            "Helvetia, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Bethany, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "North Plains, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Beaverton, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Hillsboro, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Tualatin, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Cornelius, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Forest Grove, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Tigard, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Banks, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "King City, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Cedar Hills, Oregon"
+          ]
+        },
+        {
+          "@type": "Place",
+          "name": [
+            "Aloha, Oregon"
+          ]
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "North Plains",
+        "addressRegion": "OR",
+        "postalCode": "97133"
+      },
+      "description": "We provide a range of services from furance repair and maintenance to installing new furnaces, air conditioning units and mini-split systems. You can also count on us for regular maintenance and tune-up services on all brands of HVAC systems.",
+      "sameAs": [
+        "https://www.facebook.com/#/",
+        "https://www.instagram.com/#/"
+      ]
+    };
+  },
 }
   // if (process.browser) {
 

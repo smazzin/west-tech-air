@@ -46,7 +46,7 @@
     </div>
     <div class="mobile-cta">
       <div class="call-us-cta">
-        <a class="mobile-btn top-header-phone" href="#">Call Us {{ navData.data.phone }}</a>
+        <a class="mobile-btn top-header-phone" :href="`tel:${ navData.data.phone }`">Call Us {{ navData.data.phone }}</a>
       </div>
       <div class="schedule-service-cta">
         <a class="mobile-btn" href="#">
@@ -54,9 +54,7 @@
         </a>
       </div>
     </div>
-      <!-- <prismic-link :field="$store.state.buttonLinks">
-        {{ $prismic.asText($store.state.buttonText) }}
-      </prismic-link> -->
+
   </header>
 </div>
 </template>

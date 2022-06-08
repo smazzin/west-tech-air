@@ -59,13 +59,13 @@ export default {
           content: this.doc.data.metaImage.url ?? '',
         },
       ],
-      link: [
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: 'https://thenextbit.de/'
-        }
-      ],
+      // link: [
+      //   {
+      //     hid: 'canonical',
+      //     rel: 'canonical',
+      //     href: this.$config.baseURL
+      //   }
+      // ],
     }
   },
 }

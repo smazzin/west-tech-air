@@ -9,6 +9,9 @@ getPrismicRedirects()
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
+  publicRuntimeConfig: {
+    baseURL: process.env.NODE_ENV === 'production' ? 'https://westtechair.com' : 'https://westtechair-dev.netlify.app'
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: "slice-library-starter-nuxt",

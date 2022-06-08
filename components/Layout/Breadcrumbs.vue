@@ -51,7 +51,7 @@ export default {
   },
   created() {
     this.routes = this.$route.fullPath.substring(1).split('/');
-    let current = process.env.CURRENT_URL;
+    let current = this.$config.baseURL;
     this.routes.forEach((route, index) => {
       if(route != 'en'){
         this.path = index == 0 ? current + this.path + '/' + route : this.path + '/' + route
@@ -90,6 +90,17 @@ export default {
       return Object.prototype.hasOwnProperty.call(obj, prop)
     },
   },
+  // head () {
+  //   return {
+  //     link: [
+  //       {
+  //         hid: 'canonical',
+  //         rel: 'canonical',
+  //         href: this.$config.baseURL + this.$route.path
+  //       }
+  //     ],
+  //   }
+  // }
 }
 </script>
 

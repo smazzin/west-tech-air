@@ -1,6 +1,6 @@
 <template>
   <div class="container my-5">
-    <ul class="breadcrumbs">
+    <!-- <ul class="breadcrumbs">
       <li class="breadcrumb">
         <nuxt-link :to="homeDoc.path">{{ homeDoc.title }}</nuxt-link>
       </li>
@@ -20,12 +20,45 @@
       <li class="breadcrumb">
         <span>{{ $prismic.asText(currentDoc.data.title) }}</span>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      routes: {},
+      routesWithLinks: [],
+      finalRoutes: [],
+      path: '',
+    }
+  },
+  jsonld() {
+    const items = this.finalRoutes.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@id': item[0],
+        name: item[1],
+      },
+    }));
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: items,
+    };
+  },
+  created() {
+    this.routes = this.$route.fullPath.substring(1).split('/');
+    let current = process.env.CURRENT_URL;
+    this.routes.forEach((route, index) => {
+      if(route != 'en'){
+        this.path = index == 0 ? current + this.path + '/' + route : this.path + '/' + route
+        this.finalRoutes.push([this.path, route]);
+      }
+    })
+  },
   props: {
     currentDoc: {
       type: Object,
@@ -61,15 +94,5 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-.breadcrumbs {
-  @apply flex space-x-2;
-}
 
-.breadcrumb span {
-  @apply text-black opacity-40;
-}
-
-.breadcrumb span {
-  @apply text-black;
-}
 </style>

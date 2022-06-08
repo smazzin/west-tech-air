@@ -24,15 +24,12 @@
           </button>
           <ul id="primary-menu" class="menu nav-menu">
             <li class="menu-item" v-for="navLink in navData.data.nav" :key="navLink.id">
-              <!-- <a :href="`${navLink.primary.link}`">
-                {{ $prismic.asText(navLink.primary.label) }}
-              </a> -->
               <PrismicLink class="nav__link" :field="navLink.primary.link">
                 {{ $prismic.asText(navLink.primary.label) }}
               </PrismicLink>
               <ul class="sub-nav" v-if="navLink.items.length>0">
                 <li class="menu-item" v-for="subNavLink in navLink.items" :key="subNavLink.id">
-                  <PrismicLinkclass="nav__link" :field="subNavLink.sub_nav_link">
+                  <PrismicLink class="nav__link" :field="subNavLink.sub_nav_link">
                     {{ $prismic.asText(subNavLink.sub_nav_link_label) }}
                   </PrismicLink>
                 </li>

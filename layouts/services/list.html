@@ -1,0 +1,29 @@
+{{ define "body_classes" }}page-services-list{{ end }}
+
+{{ define "main" }}
+
+<div class="container-sm">
+  <div class="grid">
+    <div class="col text-center">
+      {{ .Content }}
+    </div>
+    {{ if .Params.intro_image }}
+    <div class="col">
+      <img
+        alt={{ .Title }}
+        class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
+        src="{{ .Params.intro_image | relURL }}" />
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+
+<div class="container-sm">
+  <div class="grid-3">
+    {{ range .Pages.ByWeight }}
+    <div class="col">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

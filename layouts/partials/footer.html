@@ -1,0 +1,44 @@
+<div class="footer-grid-3 footer">
+  <div class="footer-service-areas pb-2">
+    <p>Service Areas</p>
+    <ul class="list-unstyled">
+      {{ range .Site.Data.serviceAreas.area }}
+        <li>
+          {{ .city }}
+        </li>
+        {{ end }}
+    </ul>
+  </div>
+  <div class="footer-logo pb-2">
+    <a href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.mobile_height }} alt="{{ .Site.Params.logo.alt }}"
+        src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
+  </div>
+  <div class="footer-hours pb-2">
+    <p>Schedule Service</p>
+    <ul class="list-unstyled">
+      <li>
+        {{ if .Site.Data.contact.phone }}
+          <a href="tel:{{ .Site.Data.contact.phone }}">{{ .Site.Data.contact.phone }}</a>
+        {{ end }}
+      </li>
+    <p>Business Hours:</p>
+    <ul class="list-unstyled">
+      <li>
+        {{ if .Site.Data.contact.hours }}
+          {{ .Site.Data.contact.hours }}
+        {{ end }}
+      </li>
+  </div>
+
+    {{/*  <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          {{ partial "footer-menu" . }}
+        </div>
+      </div>
+    </div>  */}}
+
+    {{ if .Site.Params.footer.show_contact_box }}
+    {{ partial "call.html" (dict "site" .Site "context" . "show_button" "false") }}
+    {{ end }}
+</div>

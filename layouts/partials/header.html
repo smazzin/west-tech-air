@@ -1,0 +1,33 @@
+<div class="bg-blue-base">
+  <div class="container">
+    <div class="top-header">
+      <div class="service-areas">Serving Portland Metro and surroudning areas</div>
+      <div class="call-us">
+        <a class="top-header-phone" href="tel:{{.Site.Data.contact.phone}}">Call Us {{.Site.Data.contact.phone}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+<header class="bg-black-base">
+  <div class="container">
+    <div class="navbar">
+      <a class="logo" href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.mobile_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
+      {{ partial "main-menu.html" . }}
+      <div class="navbar-btn-wrapper">
+        <a class="btn" href="{{ .Site.Data.contact.schedule_url }}">
+          Schedule Service
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-cta">
+    <div class="call-us-cta">
+      <a href="tel:{{.Site.Data.contact.phone}}" class="mobile-btn top-header-phone">Call Us {{.Site.Data.contact.phone}}</a>
+    </div>
+    <div class="schedule-service-cta">
+      <a href="{{ .Site.Data.contact.schedule_url }}" class="mobile-btn">
+        Schedule Service
+      </a>
+    </div>
+  </div>
+</header>

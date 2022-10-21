@@ -1,0 +1,103 @@
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "main" }}
+<section class="home-hero">
+  <div class="container">
+    <div class="home-hero-content">
+        {{ .Content }}
+        {{ if .Site.Params.homepage.show_contact_box }}
+          {{ partial "call.html" (dict "site" .Site "context" . "show_button" "true") }}
+        {{ end }}
+        <div class="buttons d-grid">
+          <a class="btn btn-dark" href="{{ .Site.Data.contact.schedule_url }}">Schedule Service</a>
+        </div>
+
+      {{/*  {{ if .Params.intro_image }}
+      <div class="col d-flex justify-content-end">
+        <img alt={{ .Title }} class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}" src="{{ .Params.intro_image | relURL }}" />
+      </div>
+      {{ end }}  */}}
+    </div>
+  </div>
+</section>
+
+<section class="wave-cta">
+  <div class="container text-center">
+    <div class="title text-white-base">
+      <h2 class="h1">Schedule Service Now!</h2>
+      <p>Schedule an appointment for service, maintenance or a free system replacement quote.</p>
+      <a class="btn" href="tel:{{.Site.Data.contact.phone}}">{{.Site.Data.contact.phone}}</a>
+    </div>
+  </div>
+  <figure class="wave-cta-bottom-divider"></figure>
+</section>
+
+
+{{if .Site.Data.services}}
+<section class="container mb-5">
+  <div class="container">
+    <div class="mb-5">
+      <h2 class="h1">We provide complete home heating & cooling services, including:</h2>
+    </div>
+    <div class="grid-3">
+      {{ range .Site.Data.services.heating }}
+      <div class="pb-2">
+        <h4>{{ .title }}</h4>
+        <ul class="feature-content">
+          {{ range .service }}
+          <li>{{ .title }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{end}}
+      {{ range .Site.Data.services.cooling }}
+      <div class="pb-2">
+        <h4>{{ .title }}</h4>
+        <ul class="feature-content">
+          {{ range .service }}
+          <li>{{ .title }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      {{ if .Params.image }}
+      <div class="feature-image"><img width="488" height="328" src="{{ .Params.image | relURL }}" /></div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{end}}
+
+{{ if .Site.Data.about }}
+<section class="wave-featured-image mb-5">
+  <div class="wave-featured-image-divider"></div>
+  <div class="container grid-2 align-items-center mt-5">
+    <div class="text-white-base">
+      <h2 class="h1">{{ .Site.Data.about.heading }}</h2>
+      <p>{{ .Site.Data.about.content }}</p>
+    </div>
+    <img class="ml-auto" alt="{{ .Site.Data.about.heading }}" width="727" height="402" src="{{ .Site.Data.about.image | relURL }}">
+  </div>
+</section>
+{{ end }}
+
+
+{{ if .Site.Params.homepage.show_contact_form }}
+<section class="container mb-5">
+  <div class="grid-2 align-items-center">
+    <div class="pb-2">
+      <h4>West Tech Air is ready to help!</h4>
+      <p class="h4">Request a Service or Estimate</p>
+      <a  class="btn" href="{{ .Site.Data.contact.schedule_url }}">Schedule Service Online</a>
+    </div>
+      <img class="ml-auto" alt="{{ .Site.Data.contact.heading }}" width="488" height="325" src="{{ .Site.Data.contact.image | relURL }}">
+    {{/*  {{ partial "contact-form.html" (dict "site" .Site "context" .) }}  */}}
+  </div>
+</section>
+{{ end }}
+
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}

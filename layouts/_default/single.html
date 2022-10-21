@@ -1,0 +1,17 @@
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "main" }}
+<div class="wave-cta">
+  <div class="container text-center text-white-base">
+    <h1>{{.Title}}</h1>
+  </div>
+  <figure class="wave-cta-bottom-divider"></figure>
+</div>
+<section class="container-sm mb-5">
+  <div class="grid align-items-center">
+    <div class="content">{{.Content}}</div>
+    <a  class="btn" href="{{ .Site.Data.contact.schedule_url }}">Schedule Service Online</a>
+  </div>
+  {{/*  {{ partial "contact-form.html" }}  */}}
+</section>
+{{ end }}

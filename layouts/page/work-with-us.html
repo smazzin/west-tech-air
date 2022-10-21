@@ -1,0 +1,11 @@
+{{ define "body_classes" }}page-work-with-us{{ end }}
+
+{{ define "main" }}
+<div class="container-sm">
+  <div class="col">
+      <div class="content">{{.Content}}</div>
+    </div>
+  </div>
+  {{ partial "work-with-us-form.html" }}
+
+{{ end }}

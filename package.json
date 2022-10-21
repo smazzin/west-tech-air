@@ -1,40 +1,16 @@
 {
-  "name": "slice-library-starter-nuxt",
-  "version": "0.0.0",
-  "description": "A Boiler Plate to launch a Nuxt.js and Slice Machine project",
-  "author": "<author>",
-  "license": "MIT",
-  "main": "slices/index.js",
+  "name": "freedom-security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
-    "nuxt:build": "nuxt build",
-    "build": "nuxt generate",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "slicemachine": "start-slicemachine --port 9999"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@nuxtjs/netlify-files": "^1.2.0",
-    "@nuxtjs/prismic": "^1.3.2",
-    "@nuxtjs/robots": "^2.5.0",
-    "@nuxtjs/sitemap": "^2.4.0",
-    "cookies": "^0.8.0",
-    "nuxt": "^2.15.8",
-    "nuxt-jsonld": "^1.5.3",
-    "vue-gtag": "^1.16.1",
-    "vue-slicezone": "^0.1.0"
-  },
-  "devDependencies": {
-    "@prismicio/slice-simulator-vue": "^0.1.1",
-    "core-js": "^3.18.2",
-    "nuxt-sm": "^0.0.9",
-    "postcss": "^8.4.12",
-    "sass": "^1.49.9",
-    "sass-loader": "^10.2.1",
-    "slice-machine-ui": "^0.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/prismicio-community/slice-library-starter-nuxt"
+    "autoprefixer": "^10.4.8",
+    "postcss-cli": "^10.0.0",
+    "postcss": "8.4.16"
   }
 }

@@ -1,0 +1,33 @@
+{{ define "body_classes" }}page-services-single{{ end }}
+
+{{ define "main" }}
+{{ if .Params.intro_image }}
+<div class="hero hero-has-background" style="--background: url( {{ .Params.hero_image | relURL }} ) center / cover; --overlay: rgba(255, 255, 255, 0.667);">
+  <div class="container-sm">
+    <div class="hero-content grid-2">
+      <h1 class="title">{{.Title}}</h1>
+    </div>
+  </div>
+</div>
+{{ end }}
+<div class="container-sm">
+  <div class="grid">
+    <div class="col">
+      <div class="service service-single">
+        <div class="content">{{.Content}}</div>
+      </div>
+    </div>
+  </div>
+  {{ partial "contact-form.html" }}
+</div>
+{{ end }}
+
+{{ define "footer_js" }}
+{{ $library := resources.Get "js/libs/library.js" }}
+{{ $services := resources.Get "js/pages/services.js" }}
+{{ $servicesJS := slice $library $services | resources.Concat "js/services.js" }}
+{{ if hugo.IsProduction }}
+  {{ $servicesJS = $servicesJS | minify | fingerprint }}
+{{ end }}
+<script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
+{{ end }}

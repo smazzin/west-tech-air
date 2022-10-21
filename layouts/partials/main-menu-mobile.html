@@ -1,0 +1,31 @@
+<div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+    <li class="menu-item dropdown {{ if or (eq .Pre .URL) (eq .URL $currentPage.RelPermalink) }}active{{ end }}">
+        <a href="{{.URL | relURL }}">
+          {{ .Pre }}
+          <span>{{ .Name }}</span>
+        </a>
+        <ul class="dropdown-menu">
+          {{ range .Children }}
+          <li class="menu-item {{ if or (eq .Pre .URL) (eq .URL $currentPage.RelPermalink) }}active{{ end }}">
+            <a href="{{.URL | relURL }}">
+              {{ .Pre }}
+              <span>{{ .Name }}</span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+      </li> 
+    {{ else }}
+    <li class="menu-item {{ if or (eq .Pre .URL) (eq .URL $currentPage.RelPermalink) }}active{{ end }}">
+      <a href="{{ .URL }}">
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+    {{end}}
+    {{end}}
+  </ul>
+</div>

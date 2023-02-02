@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify"
+command = "hugo --gc --minify --disableKinds=taxonomy,taxonomyTerm"
 
 [context.production.environment]
 HUGO_VERSION = "0.101.0"
@@ -28,8 +28,3 @@ HUGO_VERSION = "0.101.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-
-# [[redirects]]
-# from = "/npmjs/*"
-# to = "/npmjs/"
-# status = 200

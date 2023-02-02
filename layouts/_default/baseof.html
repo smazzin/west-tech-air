@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+<html lang="{{ .Site.LanguageCode | default "en" }}">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ block "title" . }}{{ .Params.meta_title | default (printf "%s - %s" .Title .Site.Title) }}{{ end }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="{{ "favicon-32x32.svg" | relURL }}">
+  {{ block "site/meta" . }}{{ partial "site/meta.html" . }}{{ end }}
+
+  {{ range .AlternativeOutputFormats }}
+      <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  {{ end }}
 
   {{ partial "google-fonts.html" . }}
 
@@ -20,17 +20,86 @@
 
   {{ block "header_css" . }}{{ end }}
 
-  {{ block "meta_tags" . }}
-    {{ with .Params.description }}<meta name="description" content="{{ . }}"/>{{ end }}
-    <meta property="og:title" content="{{ .Params.meta_title | default .Title }}"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="{{ .Permalink }}"/>
-    {{ with .Params.image | default .Site.Params.seo.meta_og_image }}<meta property="og:image" content="{{ . | absURL }}"/>{{ end }}
-    {{ with .Params.description }}<meta property="og:description" content="{{ . }}"/>{{ end }}
-    <meta name="twitter:card" content="summary"/>
-    {{ with .Site.Params.seo.meta_twitter_site }}<meta name="twitter:site" content="{{ . }}"/>{{ end }}
-    {{ with .Site.Params.seo.meta_twitter_creator }}<meta name="twitter:creator" content="{{ . }}"/>{{ end }}
-  {{ end }}
+  <script type="application/ld+json">
+    {
+    "@context": "https://schema.org/",
+    "@type": ["LocalBusiness","Service", "HVACBusiness"],
+        "name": "West-Tech Air",
+        "telephone": "503-805-7715",
+        "openingHours": "Mo-Fri 07:00-17:00",
+        "logo": "https://westtechair.com/images/logo/west-tech-air.png",
+        "image": "https://westtechair.com/images/logo/west-tech-air.png",
+        "url": "https://westtechair.com",
+        "priceRange" : "$$$",
+        "areaServed" : [
+            {"@type" : "Place",
+                        "name": ["Clackamas, Oregon"]
+            },
+            {"@type" : "Place",
+                        "name": ["Gladstone, Oregon"]
+            },
+            {"@type" : "Place",
+                        "name": ["Happy Valley, Oregon"]
+            },
+            {"@type" : "Place",
+                        "name": ["Lake Oswego, Oregon"]
+            },
+            {"@type" : "Place",
+                        "name": ["Milwaukie, Oregon"]
+            },
+            {"@type" : "Place",
+                    "name": ["Oregon City, Oregon"]
+            },
+            {"@type" : "Place",
+                    "name": ["Portland, Oregon"]
+            },
+            {"@type" : "Place",
+                    "name": ["Tualatin, Oregon"]
+            },
+
+        ],
+        "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "",
+        "addressLocality" : "Portland",
+        "addressRegion" : "OR",
+        "postalCode" : "97267"
+        },
+        "description": "Looking for heating and cooling services? West Tech Air is a fully licensed and insured HVAC service company. We are dedicated to providing top-quality service to our customers. Our qualified technicians have years of experience providing heating and cooling services for Portland, OR businesses and homeowners."
+    }
+    </script>
+{{ block "schema" . }}
+{{ end }}
+{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
+{{- $url := replace .Permalink ( printf "%s" ( "/" | absLangURL ) ) "" -}}
+
+{{- $.Scratch.Add "path" ( "/" | absLangURL ) -}}
+{{- $.Scratch.Add "breadcrumb" (slice (dict "url" ( "/" | absLangURL ) "name" "home" "position" 1 )) -}}
+{{- range $index, $element := split $url "/" -}}
+{{- $.Scratch.Add "path" $element -}}
+{{- $.Scratch.Add "path" "/" -}}
+{{- if ne $element "" -}}
+{{- $.Scratch.Add "breadcrumb" (slice (dict "url" ($.Scratch.Get "path") "name" . "position" (add $index 2))) -}}
+{{- end -}}
+{{- end -}}
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {{ range $.Scratch.Get "breadcrumb" }}
+        {{ if ne .position 1 }},
+    {{ end }}
+    {
+            "@type": "ListItem",
+            "position": {{ .position }},
+            "item": {
+            "@id": "{{ .url }}",
+            "name": "{{ .name }}"
+            }
+        }{{ end }}]
+    }
+    </script>
 
 </head>
 

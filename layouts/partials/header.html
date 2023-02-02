@@ -11,7 +11,9 @@
 <header class="bg-black-base">
   <div class="container">
     <div class="navbar">
-      <a class="logo" href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.mobile_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
+      <a class="logo" href="{{ .Site.BaseURL }}">
+        <img height="{{ .Site.Params.logo.mobile_height }}" alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" />
+      </a>
       {{ partial "main-menu.html" . }}
       <div class="navbar-btn-wrapper">
         <a class="btn" href="{{ .Site.Data.contact.schedule_url }}">

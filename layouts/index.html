@@ -37,7 +37,7 @@
 <section class="container mb-5">
   <div class="container">
     <div class="mb-5">
-      <h2 class="h1">We provide complete home heating & cooling services, including:</h2>
+      <h2 class="h1">We provide complete home heating & cooling services in Portland, OR, including:</h2>
     </div>
     <div class="grid-3">
       {{ range .Site.Data.services.heating }}
@@ -61,7 +61,7 @@
       </div>
       {{ end }}
       {{ if .Params.image }}
-      <div class="feature-image"><img width="488" height="328" src="{{ .Params.image | relURL }}" /></div>
+      <div class="feature-image"><img alt="{{ .Params.image_alt }}" width="488" height="328" src="{{ .Params.image | relURL }}" /></div>
       {{ end }}
     </div>
   </div>
@@ -76,7 +76,7 @@
       <h2 class="h1">{{ .Site.Data.about.heading }}</h2>
       <p>{{ .Site.Data.about.content }}</p>
     </div>
-    <img class="ml-auto" alt="{{ .Site.Data.about.heading }}" width="727" height="402" src="{{ .Site.Data.about.image | relURL }}">
+    <img class="ml-auto" alt="{{ .Site.Data.about.image_alt }}" width="727" height="402" src="{{ .Site.Data.about.image | relURL }}">
   </div>
 </section>
 {{ end }}
@@ -90,7 +90,7 @@
       <p class="h4">Request a Service or Estimate</p>
       <a  class="btn" href="{{ .Site.Data.contact.schedule_url }}">Schedule Service Online</a>
     </div>
-      <img class="ml-auto" alt="{{ .Site.Data.contact.heading }}" width="488" height="325" src="{{ .Site.Data.contact.image | relURL }}">
+      <img class="ml-auto" alt="{{ .Site.Data.contact.image_alt }}" width="488" height="325" src="{{ .Site.Data.contact.image | relURL }}">
     {{/*  {{ partial "contact-form.html" (dict "site" .Site "context" .) }}  */}}
   </div>
 </section>

@@ -53,7 +53,8 @@ show_services_button = false # show / hide the "view all services" button
 
 [params.logo]
 mobile = "images/logo/west-tech-air.png"
-mobile_height = "96px"
+mobile_height = "96"
+mobile_width = "275"
 alt = "West Tech Air"
 
 [params.team]

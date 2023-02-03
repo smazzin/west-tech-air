@@ -42,7 +42,7 @@
     <div class="grid-3">
       {{ range .Site.Data.services.heating }}
       <div class="pb-2">
-        <h4>{{ .title }}</h4>
+        <h3>{{ .title }}</h3>
         <ul class="feature-content">
           {{ range .service }}
           <li>{{ .title }}</li>
@@ -52,7 +52,7 @@
       {{end}}
       {{ range .Site.Data.services.cooling }}
       <div class="pb-2">
-        <h4>{{ .title }}</h4>
+        <h3>{{ .title }}</h3>
         <ul class="feature-content">
           {{ range .service }}
           <li>{{ .title }}</li>

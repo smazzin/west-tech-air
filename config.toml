@@ -1,4 +1,4 @@
-baseURL = "https://westtechair.com"
+baseURL = "/"
 contentDir = "content"
 languageCode = "en-us"
 languageLang = "en"

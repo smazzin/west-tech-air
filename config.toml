@@ -52,7 +52,7 @@ show_contact_form = true     # show / hide the contact form on the homepage
 show_services_button = false # show / hide the "view all services" button
 
 [params.logo]
-mobile = "images/logo/west-tech-air.png"
+mobile = "images/logo/west-tech-air-logo.png"
 mobile_height = "96"
 mobile_width = "275"
 alt = "West Tech Air"

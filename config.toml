@@ -1,7 +1,5 @@
 baseURL = "/"
-contentDir = "content"
 languageCode = "en-us"
-languageLang = "en"
 title = "West Tech Air Heating & Cooling"
 copyright = "Copyright &copy; {year}. West Tech Air All Rights Reserved"
 permalinks = "/:slug/"
@@ -17,29 +15,10 @@ enableRobotsTXT = true
   google_analytics_id = ""
   google_tag_manager_id = "GTM-MB8W7XJ"
   disallow_search_engines = false # Set to true to disallow search engines from indexing your site
-
-# add redirects/headers
-[outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-
-# remove .{ext} from text/netlify
-[mediaTypes."text/netlify"]
-suffixes = [""]
-delimiter = ""
-
-# add output format for netlify _redirects
-[outputFormats.REDIRECTS]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-
-# add output format for netlify _headers
-[outputFormats.HEADERS]
-mediatype = "text/netlify"
-baseName = "_headers"
-isPlainText = true
-notAlternative = true
+  noindex_kinds = [
+    "taxonomy",
+    "taxonomyTerm"
+  ]
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 

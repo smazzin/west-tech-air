@@ -12,7 +12,7 @@
   <div class="container">
     <div class="navbar">
       <a class="logo" href="{{ .Site.BaseURL }}">
-        <img height="{{ .Site.Params.logo.mobile_height }}" width="{{ .Site.Params.logo.mobile_width }}" alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" />
+        <img src="{{ .Site.Params.logo.mobile | relURL }}" height="{{ .Site.Params.logo.mobile_height }}" width="{{ .Site.Params.logo.mobile_width }}" alt="{{ .Site.Params.logo.alt }}" />
       </a>
       {{ partial "main-menu.html" . }}
       <div class="navbar-btn-wrapper">

@@ -1,6 +1,4 @@
 // Some basic color utilities
-@use "../abstracts" as *;
-
 @each $color,
 $shade in $colors {
 
@@ -15,22 +13,5 @@ $shade in $colors {
     }
   }
 }
-
-// .primary {
-//   --clr: var(--clr-primary-400);
-// }
-// .youtube {
-//   --clr: var(--clr-youtube-400);
-// }
-// .article {
-//   --clr: var(--clr-article-400);
-// }
-// .course {
-//   --clr: var(--clr-course-400);
-// }
-// .resource {
-//   --clr: var(--clr-resource-400);
-// }
-
 
 // text color

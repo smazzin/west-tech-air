@@ -1,0 +1,219 @@
+// General
+.text-center {
+  text-align: center;
+}
+
+.img-contain {
+  object-fit: contain;
+  width: 100%;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mb-5 {
+  margin-bottom: 5em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
+}
+
+.mt-5 {
+  margin-top: 5em;
+}
+
+.mt-2 {
+  margin-top: 2em;
+}
+
+.p-3 {
+  padding: 3em;
+}
+
+.pb-2 {
+  padding-bottom: 2em;
+}
+
+.pb-5 {
+  padding-bottom: 5em;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+// Homepage hero
+.home-hero {
+  background: hsla(0, 0%, 0%, 0.7);
+  background-color: var(--clr-blue-base);
+  background-image: url("../images/gold-hero.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--clr-white-base);
+  // padding-top: 360px;
+  // padding-bottom: 360px;
+  padding-top: calc(10vw + 40px);
+  padding-bottom: calc(15vw + 30px);
+
+  h1 {
+    color: var(--clr-white-base);
+  }
+
+}
+
+.home-hero-content {
+  // position: absolute;
+}
+
+.wave-cta {
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 250px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--clr-blue-base)), to(var(--clr-blue-base)));
+  background-image: linear-gradient(180deg, var(--clr-blue-base), var(--clr-blue-base));
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+}
+
+.wave-cta-bottom-divider {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0;
+  width: 100%;
+  height: 20vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-image: url("../images/curve.png");
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.wave-featured-image {
+  position: relative;
+  height: auto;
+  padding-top: 125px;
+  padding-bottom: 120px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--clr-blue-base)), to(var(--clr-blue-base)));
+  background-image: linear-gradient(180deg, var(--clr-blue-base), var(--clr-blue-base));
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+}
+
+.wave-featured-image-divider {
+  position: absolute;
+  left: 0%;
+  top: -2%;
+  right: 0%;
+  bottom: auto;
+  overflow: visible;
+  height: 30vh;
+  background-image: url("../images/section-top-devider.svg");
+  background-position: 0% 0%;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+
+// contact form
+
+.form {
+  &-control {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &-label {
+    position: absolute;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: inherit;
+    left: 1rem;
+    top: 0.75rem;
+    padding: 0 0.25rem;
+    color: var(--clr-black-base);
+    background: var(--clr-white-base);
+    transition: all 0.3s ease;
+  }
+
+  &-input {
+    position: absolute;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: inherit;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    resize: none;
+    width: 100%;
+    height: auto;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.25rem;
+    border: 2px solid var(--clr-gray-base);
+    color: var(--clr-black-base);
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+
+    &::placeholder {
+      opacity: 0;
+      visibility: hidden;
+      color: transparent;
+    }
+
+    &:focus {
+      outline: none;
+      border: 2px solid var(--clr-blue-base);
+
+      &~.form-label {
+        top: -0.75rem;
+        left: 1rem;
+        z-index: 5;
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--clr-blue-base);
+        transition: all 0.2s ease-in-out;
+      }
+    }
+
+    &:not(:placeholder-shown).form-input {
+      &:not(:focus) {
+        &~.form-label {
+          top: -0.75rem;
+          left: 1rem;
+          z-index: 9;
+          font-size: 0.875rem;
+          font-weight: 500;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.contact {
+  &-inform {
+    // padding: 4rem 2rem 2rem;
+    color: var(--clr-black-base);
+    background: var(--clr-white-base);
+  }
+}
+
+// Google maps
+iframe {
+  display: block;
+  width: 90%;
+  max-width: 60rem;
+  height: 25em;
+  margin: 2rem auto;
+}
